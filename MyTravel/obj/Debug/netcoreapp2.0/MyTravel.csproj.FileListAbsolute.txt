@@ -1,0 +1,11 @@
+c:\users\diego\documents\visual studio 2017\Projects\MyTravel\MyTravel\bin\Debug\netcoreapp2.0\MyTravel.deps.json
+c:\users\diego\documents\visual studio 2017\Projects\MyTravel\MyTravel\bin\Debug\netcoreapp2.0\MyTravel.runtimeconfig.json
+c:\users\diego\documents\visual studio 2017\Projects\MyTravel\MyTravel\bin\Debug\netcoreapp2.0\MyTravel.runtimeconfig.dev.json
+c:\users\diego\documents\visual studio 2017\Projects\MyTravel\MyTravel\bin\Debug\netcoreapp2.0\MyTravel.dll
+c:\users\diego\documents\visual studio 2017\Projects\MyTravel\MyTravel\bin\Debug\netcoreapp2.0\MyTravel.pdb
+c:\users\diego\documents\visual studio 2017\Projects\MyTravel\MyTravel\obj\Debug\netcoreapp2.0\MyTravel.csprojAssemblyReference.cache
+c:\users\diego\documents\visual studio 2017\Projects\MyTravel\MyTravel\obj\Debug\netcoreapp2.0\MyTravel.csproj.CoreCompileInputs.cache
+c:\users\diego\documents\visual studio 2017\Projects\MyTravel\MyTravel\obj\Debug\netcoreapp2.0\MyTravel.AssemblyInfoInputs.cache
+c:\users\diego\documents\visual studio 2017\Projects\MyTravel\MyTravel\obj\Debug\netcoreapp2.0\MyTravel.AssemblyInfo.cs
+c:\users\diego\documents\visual studio 2017\Projects\MyTravel\MyTravel\obj\Debug\netcoreapp2.0\MyTravel.dll
+c:\users\diego\documents\visual studio 2017\Projects\MyTravel\MyTravel\obj\Debug\netcoreapp2.0\MyTravel.pdb
