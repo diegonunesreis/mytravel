@@ -6,6 +6,7 @@
     <title>@ViewData["Title"] - MyTravel</title>
 
     <environment include="Development">
+        <link rel="stylesheet" href="~/css/reset.css" asp-append-version="true" />
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
     </environment>
@@ -50,7 +51,7 @@
 
 
 
-    <div class="container body-content">
+    <div class="container-fluid">
         @RenderBody()
         <hr />
         <footer>

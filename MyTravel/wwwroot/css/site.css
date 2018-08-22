@@ -1,4 +1,9 @@
-﻿
+﻿html, body {
+    /*caso a barra de navegação horizontal apareça, descomente isso*/
+    /*max-width: 100%;
+    overflow-x: hidden;*/
+}
+
 /*Fixing the menu items to the right side of the screen*/
 @media screen and (min-width: 992px) {
     .navbar-left {
@@ -8,16 +13,19 @@
     }
 }
 
-.container {
-    margin: 0;
+.carousel-height {
+    max-height: 300px;
+}
+
+.carousel-img {
+    object-fit: cover;
+    height: 300px;
+}
+
+.col-stick-borders {
     padding: 0;
-    max-width: 100%;
 }
 
-.carousel-stick-borders{
-    max-height: 200px;
-}
-
-.carousel-height{
-    max-height: 350px;
+.card-travel {
+    margin: 10px 0;
 }
