@@ -3,6 +3,7 @@
     ViewData["Title"] = "Index";
 }
 
+@* Carousel *@
 <div class="row">
     <div class="col-md-12 col-stick-borders">
         <div class="carousel-stick-borders">
@@ -46,15 +47,14 @@
             </div>
         </div>
     </div>
-
 </div>
 
+@* Search tool *@
 <div class="row">
     <div class="col-md-12">
         <div class="card card-travel">
             <div class="card-body">
                 <h5 class="card-title">Where do you wanna go?</h5>
-
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputOrigin">Origin</label>
@@ -81,27 +81,201 @@
                     <div class="col-md-6">
                         <div class="form-row">
                             <div class="form-group col-md-6">
-                                <label for="inputPassengersQuantity">How many people?</label>
-                                <input type="number" class="form-control" id="inputPassengersQuantity" placeholder="Insert a quantity. Ex: 5">
+                                <label for="inputAdultsQuantity">How many Adults?</label>
+                                <input type="number" class="form-control" id="inputAdultsQuantity" placeholder="Insert a quantity. Ex: 5">
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="inputTravelPlan">Travel Plan</label>
-                                <select id="inputTravelPlan" class="form-control">
-                                    <option selected>Choose...</option>
-                                    <option>modest</option>
-                                    <option>complete</option>
-                                </select>
+                                <label for="inputChildrenQuantity">How many children?</label>
+                                <input type="number" class="form-control" id="inputChildrenQuantity" placeholder="Insert a quantity. Ex: 5">
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-
-
-
+                <div class="form-row">
+                    <button type="button" class="btn btn-secondary btn-lg btn-block">Find now</button>
+                </div>
             </div>
         </div>
+    </div>
+</div>
 
+@* Travel packages *@
+<div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card d-block card-travel-package">
+                <img class="card-img-top" src="~/images/assets/disneyland.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Disneyland</h5>
+                    <p class="card-text">
+                        <ul>
+                            <li>- Fly ticket + hotel</li>
+                            <li>- 3 days</li>
+                            <li>- 22/08/18 - 22/09/2018</li>
+                        </ul>
+                    </p>
+                    <p class="p-no-margin">From:</p>
+                    <h4>$ 300,00</h4>
+                    <a href="#" class="btn btn-primary btn-card">See details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card d-block card-travel-package">
+                <img class="card-img-top" src="~/images/assets/disneyland.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Disneyland</h5>
+                    <p class="card-text">
+                        <ul>
+                            <li>- Fly ticket + hotel</li>
+                            <li>- 3 days</li>
+                            <li>- 22/08/18 - 22/09/2018</li>
+                        </ul>
+                    </p>
+                    <p class="p-no-margin">From:</p>
+                    <h4>$ 300,00</h4>
+                    <a href="#" class="btn btn-primary btn-card">See details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card d-block card-travel-package">
+                <img class="card-img-top" src="~/images/assets/disneyland.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Disneyland</h5>
+                    <p class="card-text">
+                        <ul>
+                            <li>- Fly ticket + hotel</li>
+                            <li>- 3 days</li>
+                            <li>- 22/08/18 - 22/09/2018</li>
+                        </ul>
+                    </p>
+                    <p class="p-no-margin">From:</p>
+                    <h4>$ 300,00</h4>
+                    <a href="#" class="btn btn-primary btn-card">See details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card d-block card-travel-package">
+                <img class="card-img-top" src="~/images/assets/disneyland.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Disneyland</h5>
+                    <p class="card-text">
+                        <ul>
+                            <li>- Fly ticket + hotel</li>
+                            <li>- 3 days</li>
+                            <li>- 22/08/18 - 22/09/2018</li>
+                        </ul>
+                    </p>
+                    <p class="p-no-margin">From:</p>
+                    <h4>$ 300,00</h4>
+                    <a href="#" class="btn btn-primary btn-card">See details</a>
+                </div>
+            </div>
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card d-block card-travel-package">
+                <img class="card-img-top" src="~/images/assets/disneyland.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Disneyland</h5>
+                    <p class="card-text">
+                        <ul>
+                            <li>- Fly ticket + hotel</li>
+                            <li>- 3 days</li>
+                            <li>- 22/08/18 - 22/09/2018</li>
+                        </ul>
+                    </p>
+                    <p class="p-no-margin">From:</p>
+                    <h4>$ 300,00</h4>
+                    <a href="#" class="btn btn-primary btn-card">See details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card d-block card-travel-package">
+                <img class="card-img-top" src="~/images/assets/disneyland.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Disneyland</h5>
+                    <p class="card-text">
+                        <ul>
+                            <li>- Fly ticket + hotel</li>
+                            <li>- 3 days</li>
+                            <li>- 22/08/18 - 22/09/2018</li>
+                        </ul>
+                    </p>
+                    <p class="p-no-margin">From:</p>
+                    <h4>$ 300,00</h4>
+                    <a href="#" class="btn btn-primary btn-card">See details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card d-block card-travel-package">
+                <img class="card-img-top" src="~/images/assets/disneyland.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Disneyland</h5>
+                    <p class="card-text">
+                        <ul>
+                            <li>- Fly ticket + hotel</li>
+                            <li>- 3 days</li>
+                            <li>- 22/08/18 - 22/09/2018</li>
+                        </ul>
+                    </p>
+                    <p class="p-no-margin">From:</p>
+                    <h4>$ 300,00</h4>
+                    <a href="#" class="btn btn-primary btn-card">See details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card d-block card-travel-package">
+                <img class="card-img-top" src="~/images/assets/disneyland.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Disneyland</h5>
+                    <p class="card-text">
+                        <ul>
+                            <li>- Fly ticket + hotel</li>
+                            <li>- 3 days</li>
+                            <li>- 22/08/18 - 22/09/2018</li>
+                        </ul>
+                    </p>
+                    <p class="p-no-margin">From:</p>
+                    <h4>$ 300,00</h4>
+                    <a href="#" class="btn btn-primary btn-card">See details</a>
+                </div>
+            </div>
+        </div>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card bg-light d-block">
+            <div class="card-body">
+                <h5 class="card-title">Sign our newsletter</h5>
+                <div class="row">
+                    <div class="col-md-2">
+                        <i class="fas fa-envelope email-icon"></i>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="inputName" placeholder="Insert your name">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="inputEmail" placeholder="Insert your email">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <button type="button" class="btn btn-secondary btn-block">Sign up</button>
+                    </div>
+                </div>                
+            </div>
+        </div>
     </div>
 </div>
