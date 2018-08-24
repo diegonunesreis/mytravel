@@ -46,6 +46,11 @@
 }
 
 .email-icon {
-    height: 50px;
-    width: 50px;
+    text-align: center;
+}
+
+.newsletter-center-y {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
 }
