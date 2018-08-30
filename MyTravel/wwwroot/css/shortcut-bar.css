@@ -1,0 +1,27 @@
+﻿.shortcut-bar {
+height: 36px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.shortcut-bar a i {
+    text-align: center;
+    font-size: 18px;
+    color: gray;
+}
+
+.shortcut-bar p {
+    text-align: center;
+    font-size: 16px;
+    color: gray;
+}
+
+.shortcut-bar i, p, a {
+    display: inline-block;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.shortcut-bar a:hover {
+    text-decoration: none;
+}
